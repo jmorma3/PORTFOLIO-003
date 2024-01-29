@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/gameovercre" rel="stylesheet">
+    <script src="index.js" defer type="module"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main id="combat-board">
+
+        <div id="enemy-status">
+            <div id="nombre-enemy">Nombre Pokemon</div>
+            <div id="nivel-enemy">Nivel</div>
+            <div id="vida-enemy">VidaBarra</div>
+        </div>
+
+        <div id="img-enemy"> </div>
+        <div id="img-enemy-background"></div>
+
+        <div id="player-status">
+            <div id="nombre-player">Nombre Pokemon</div>
+            <div id="nivel-player">Nivel</div>
+            <div id="vida-player">VidaBarra</div>
+            <div id="pp-player">ppPlayer</div>
+        </div>
+
+        <div id="img-player"> </div>
+        <div id="img-player-background"></div>
+
+
+        <div id="message-box"> ( Message Box )
+            <h3 id="attack-message">What will your Pokemon do?</h3>
+            <div id="fight-menu">
+                <div id="buttons1">
+                    <button id="attackButton1"> </button>
+                    <button id="attackButton2"> </button>
+                </div>
+                <div id="buttons2">
+                    <button id="attackButton3"> </button>
+                    <button id="attackButton4"> </button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        </div>
+
+    </main>
+</body>
+
+</html>

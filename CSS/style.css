@@ -1,0 +1,463 @@
+@import url('https://fonts.cdnfonts.com/css/gameovercre');
+
+body {
+    font-family: 'gameovercre', sans-serif;
+    font-size: 21px;
+    color: black;
+    line-height: 25px;
+
+}
+
+/* Estilado general para todos los BUTTONS: */
+button {
+    font-family: 'gameovercre', sans-serif;
+    width: 120px;
+    height: 80px;
+    font-size: 18px;
+    color: black;
+    background: lightblue;
+    border: 3px solid #003060;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+    background: #003060;
+    color: white;
+    box-shadow: none;
+}
+
+/*CLASE HIDDEN Permite ocultar elementos HTML*/
+.hidden {
+    display: none
+}
+
+/*START GAME SCREEN CSS*/
+#start-game-screen {
+    border: 3px solid rgb(14, 15, 14);
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    height: 700px;
+    width: 900px;
+    background-color: rgb(163, 155, 155);
+    background-image: url("../IMG/OTROS/startScreenPokeBack.gif");
+    background-repeat: no-repeat;
+    background-size: 120%;
+
+}
+
+#pikachu-start-screen {
+
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+    width: 300px;
+    height: 200px;
+    background-image: url("../IMG/OTROS/pikachuMainScreen.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#charizard-start-screen {
+
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+    background-image: url("../IMG/OTROS/charizard.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#loading-animation-start-screen {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    bottom: 60px;
+    left: 330px;
+    background-image: url("../IMG/OTROS/loading3.gif");
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+#start-game-audio-button {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../IMG/OTROS/speakerImg.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+#game-title {
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    top: 100px;
+    left: 20%;
+    background-image: url("../IMG/STARTGAME/PokemonLogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#main-menu {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    bottom: 30%;
+    left: 45%;
+}
+
+/*MAP SCREEN CSS*/
+#map-screen {
+    margin: 0 auto;
+    position: relative;
+    height: 700px;
+    width: 900px;
+    background-image: url("../IMG/MAP/fondoBase2.jpg");
+    background-size: 50px;
+    background-repeat: repeat;
+}
+
+.map-element {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#main-path {
+    position: absolute;
+    top: 400px;
+    height: 50px;
+    width: 600px;
+    background-color: rgb(139, 121, 70);
+    background-image: url("../IMG/MAP/sandyPath.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    border-radius: 7px;
+
+}
+
+#secondary-path1 {
+    position: absolute;
+    top: 400px;
+    left: 551px;
+    height: 300px;
+    width: 50px;
+    background-color: rgb(139, 121, 70);
+    background-image: url("../IMG/MAP/sandyPath.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    border-radius: 5px;
+
+}
+
+#secondary-path2 {
+    position: absolute;
+    top: 100px;
+    left: 189px;
+    height: 300px;
+    width: 50px;
+    background-color: rgb(139, 121, 70);
+    background-image: url("../IMG/MAP/sandyPath.png");
+    background-size: 100%;
+    background-repeat: repeat;
+
+
+}
+
+/*INSIDE POKE CENTER CSS*/
+
+
+
+/*!!! INSIDE POKE CENTER CSS*/
+
+
+/*!!MAP SCREEN CSS*/
+
+
+
+/*TRANSITION SCREEN*/
+#transition-screen {
+    height: 700px;
+    width: 900px;
+    margin: 0 auto;
+    border: 2px solid red;
+    border-radius: 3px;
+    background-color: black;
+    background-size: auto;
+    position:relative;
+
+}
+
+#transition-image {
+
+    position: absolute;
+    top: 100px; 
+    height: 700px;
+    width: 900px;
+    background-image: url("../IMG/OTROS/transition3.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/*FIGHT SCREEN CSS*/
+#fight-screen {
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+    height: 700px;
+    width: 900px;
+}
+
+#combat-box {
+    position: absolute;
+    top: 0;
+    height: 450px;
+    width: 900px;
+    background-color: aquamarine;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#enemy-img {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#enemy-background-img {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#enemy-status {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px;
+    height: 100px;
+    width: 350px;
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#enemy-status>* {
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    /* text-align: center; */
+}
+
+#enemy-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+}
+
+#enemy-level {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 20px;
+}
+
+#enemy-health {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+#enemy-pp {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+#player-img {
+    position: absolute;
+    left: 150px;
+    bottom: 40px;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#player-background-img {
+    position: absolute;
+    left: 150px;
+    bottom: 40px;
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#player-status {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px;
+    height: 100px;
+    width: 350px;
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: 10px;
+
+}
+
+#player-status>* {
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#player-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+}
+
+#player-level {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 20px;
+}
+
+#player-health {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+#player-pp {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+#message-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 250px;
+    width: 450px;
+    background-image: url("../IMG/OTROS/MessageBoxBackGround.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 217, 0);
+}
+
+#new-message {
+    padding: 30px;
+}
+
+/* GAME-OVER SCREEN: */
+#game-over-screen {
+    border: 3px solid rgb(14, 15, 14);
+    margin: 0 auto;
+    position: relative;
+    height: 700px;
+    width: 900px;
+    background-color: rgb(163, 155, 155);
+    background-image: url("../IMG/OTROS/gameOverBackGround.gif");
+    background-size: 140%;
+    background-repeat: no-repeat;
+
+}
+
+#game-over-screen>* {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+
+}
+
+/* Menús emergentes ("FIGT-RUN" y "GAMEOVER-MENU") */
+.emergent-menu {
+    position: absolute;
+    top: auto;
+    left: 20%;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* Botones de Ataque: */
+#buttons-div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 250px;
+    width: 450px;
+    background-image: url("../IMG/OTROS/MessageBoxBackGround.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 217, 0);
+}
+
+#attack-buttons {
+    height: fit-content;
+    width: fit-content;
+}
+
+#buttons1 {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+#buttons1>* {
+    width: 150px;
+    height: 80px;
+}
+
+
+#buttons2 {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+}
+
+#buttons2>* {
+    width: 150px;
+    height: 80px;
+}

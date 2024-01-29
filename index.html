@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">  <!-- Linea añadida 27/07/2023 08:22 -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.cdnfonts.com/css/gameovercre" rel="stylesheet">
+    <script src="./JS/main.js" type="module" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="main">
+        <div id="start-game-screen" class="hidden">
+
+            <button id="start-game-audio-button"></i> </button>
+
+            <div id="game-title"></div>
+            <div id="pikachu-start-screen"></div>
+            <div id="charizard-start-screen"></div>
+            <div id="loading-animation-start-screen" class="hidden"></div>
+            <div id="main-menu">
+                <button id="start-game-button"> START GAME </button>
+
+            </div>
+        </div>
+        
+        <div id="map-screen" class="hidden">
+            <div id="main-path"></div>
+            <div id="secondary-path1"></div>
+            <div id="secondary-path2"></div>
+
+        </div>
+
+        <div id="poke-center-screen" class="hidden"></div>
+
+        <div id="transition-screen" class="hidden">
+            <div id="transition-image"></div>
+        </div>
+
+        <div id="fight-screen" class="hidden">
+            <div id="combat-box">
+                <div id="enemy-img"> </div>
+                <div id="enemy-background-img"></div>
+
+                <div id="enemy-status">
+                    <div id="enemy-name">Enemy Name</div>
+                    <div id="enemy-level">Enemy Level</div>
+                    <div id="enemy-health"> <span id="enemy-health-text">Player Health</span></div>
+                    <div id="enemy-pp"> PP: <span id="enemy-pp-text">Player PP</span></div>
+                </div>
+
+                <div id="player-img" class="hidden"> </div>
+                <div id="player-background-img"></div>
+
+                <div id="player-status" class="hidden">
+                    <div id="player-name">Player Name</div>
+                    <div id="player-level">Player Level</div>
+                    <div id="player-health"> <span id="player-health-text">Player Health</span></div>
+                    <div id="player-pp"> PP: <span id="player-pp-text">Player PP</span></div>
+                </div>
+
+            </div>
+            <div id="message-box">
+                <div id="new-message"> ( New Message Here )</div>
+                <div id="fight-run-option-menu" class="hidden">
+                    <button id="fight-option-button">FIGHT</button>
+                    <button id="run-option-button">RUN</button>
+                </div>
+                <div id="win-option-menu" class="hidden">
+                    <button id="return-to-map-option-button">RETURN TO MAP</button>
+                    <button id="restart-game-option-button">RESTART GAME</button>
+                </div>
+                <div id="game-over-option-menu" class="hidden">
+                    <button id="restart-game-over-option-button">RESTART GAME</button>
+                </div>
+            </div>
+            <div id="buttons-div">
+                <div id="attack-buttons" class="hidden">
+                    <div id="buttons1">
+                        <button id="attackButton1"> Ataque1 </button>
+                        <button id="attackButton2"> Ataque2</button>
+                    </div>
+                    <div id="buttons2">
+                        <button id="attackButton3">Ataque3 </button>
+                        <button id="attackButton4">Ataque4 </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="game-over-screen" class="hidden">
+            <div>
+                <h1>GAME-OVER</h1>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

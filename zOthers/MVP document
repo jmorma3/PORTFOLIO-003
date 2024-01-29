@@ -1,0 +1,45 @@
+MVP 
+Reboot Videogame
+
+TEAM: 
+Óscar
+Jorge
+
+Game name: "XXXXXX"
+
+Game description: 
+
+Our game will try to imitate the famous "Pokemon" videogame. In our version, the main character will move vertically and horizontally through a world with different areas that he can access: city, forest, lake, mountain...
+
+ 
+
+In each of these areas, our character will be able to randomly come across a type of animal. When both meet, the game screen will change to something similar to the following image:
+
+On this screen you will see our character from behind and the animal that we have found from the front. Next to the animal, a text box will appear with its "name" and its "health" (in percentage or bar). Underneath, a message will appear stating that "we have encountered X animal".
+
+Next, an option menu will appear that will allow us to choose between two options: "fight" or "run". If we choose the "run" option, we will return to the map screen and we can continue moving freely around the map.
+
+If we choose the "fight" option, a small option menu will appear in which we can choose the animal we want from our collection, starting then a fight between our animal and the one we have found. During the fight, each animal will have a text box next to it with its "name" and its "health" bar or percentage, which will decrease with each attack it receives.
+
+
+
+The objective of the game is to weaken the animal enough to be able to capture it and include it in our collection.
+
+
+Tasks:
+• USBAT move around the map freely in any direction.
+• USBAT come across randomly with animals in their respective areas. That is, both positions, that player´s and animal´s, must coincide.
+• USBAT change the "map" screen to the "fight" screen when you match the animal.
+• USBAT see the fight screen with a message indicating that our character "has found X animal".
+• USBAT see after a few seconds, a text box with a menu of two options: "Fight" and "Run".
+• USBAT choose between one of the two options "Fight" or "Run".
+• USBAT in case of choosing the "Fight" option, see a list with the different animals that you have in your collection
+• USBAT choose one of the animals from your collection to start the fight.
+• USBAT start the fight between our chosen animal and the animal that we have found.
+• USBAT launch and receive attacks.
+• USBAT cause damage to the animal by attacking it.
+• USBAT will lose health if attacked.
+• USBAT capture the animal when its health is lower than a certain percentage.
+• USBAT include the captured animal in its collection.
+• USBAT will return to the "map" screen once the fight is over.
+• USBAT will continue to move freely around the map until it meets another animal.
