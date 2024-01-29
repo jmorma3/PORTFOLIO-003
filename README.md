@@ -9,9 +9,13 @@ The game's interface and mechanics are designed to mirror the classic Pokémon a
 **Key Features:**
 
 **Start Your Adventure:** Players can initiate their unique Pokémon journey with just a few clicks.
+
 **Explore the Map:** The game features a diverse map where each area offers distinct encounters and challenges.
+
 **Random Pokémon Encounters:** The encounter system mimics the unpredictability of wild Pokémon appearances.
+
 **Battle System:** Players can fight against wild Pokémon, utilizing a combat system that captures the classic feel of Pokémon battles.
+
 **Authentic Aesthetic:** The game preserves the iconic visual style of the most famous Pokémon versions, ensuring an immersive experience.
 
 **Technologies Used:**
